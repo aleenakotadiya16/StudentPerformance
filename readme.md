@@ -38,9 +38,10 @@ Flask ( for deployment)
 
 ## **🔍 Workflow**
 1. Data Collection
-Dataset used: Student Performance Dataset (from open sources like Kaggle or UCI)
+Dataset used: Student Performance Dataset 
 
 2. Data Preprocessing
+   
 Handling missing values
 
 Encoding categorical variables
@@ -48,13 +49,13 @@ Encoding categorical variables
 Feature scaling
 
 3. Exploratory Data Analysis (EDA)
+   
 Univariate & Bivariate analysis
 
-Correlation heatmap
-
-Distribution plots of scores
+Distribution plots 
 
 ## **4. Model Building**
+
 We test multiple regression models:
 
 models = {
