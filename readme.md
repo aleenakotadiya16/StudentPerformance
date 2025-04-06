@@ -1,8 +1,8 @@
-# h1 🎓 Student Performance Predictor - ML End-to-End Project
-**📌 Objective**
+# 🎓 Student Performance Predictor - ML End-to-End Project
+## **📌 Objective**
 This project aims to predict the Math score of students based on various demographic and academic features. It leverages several regression models and selects the best-performing one through model evaluation and hyperparameter tuning.
 
-**🧠 Problem Statement**
+## **🧠 Problem Statement**
 We are given a dataset containing student information such as:
 
 Gender
@@ -21,7 +21,7 @@ Writing Score (out of 100)
 
 Our goal is to predict the Math Score (out of 100) using the above variables.
 
-**🛠️ Technologies Used**
+## **🛠️ Technologies Used**
 Python
 
 Pandas, NumPy, Scikit-learn
@@ -36,7 +36,7 @@ Flask ( for deployment)
 
 
 
-**🔍 Workflow**
+## **🔍 Workflow**
 1. Data Collection
 Dataset used: Student Performance Dataset (from open sources like Kaggle or UCI)
 
@@ -54,7 +54,7 @@ Correlation heatmap
 
 Distribution plots of scores
 
-**4. Model Building**
+## **4. Model Building**
 We test multiple regression models:
 
 models = {
@@ -67,16 +67,16 @@ models = {
     "AdaBoost": AdaBoostRegressor(),
 }
 
-**5. Model Evaluation**
+## **5. Model Evaluation**
 Evaluation Metrics: R² Score
 
 Train-test split used for validation
 
-**6. Hyperparameter Tuning**
+## **6. Hyperparameter Tuning**
 GridSearchCV/RandomizedSearchCV used for optimizing best models
 
-**7. Final Model Selection**
+## **7. Final Model Selection**
 The best model is selected based on cross-validated R² score and performance on unseen data.
 
-**8. Deployment**
+## **8. Deployment**
 The trained model can be deployed using Flask
